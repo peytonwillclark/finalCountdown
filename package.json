@@ -9,9 +9,18 @@
   "keywords": [
     "final"
   ],
-  "author": "",
+  "author": "ya boy",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peytonwillclark/finalCountdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peytonwillclark/finalCountdown/issues"
+  },
+  "homepage": "https://github.com/peytonwillclark/finalCountdown#readme"
 }

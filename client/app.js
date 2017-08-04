@@ -1,6 +1,6 @@
 var app=angular.module("finalcountdown", ["ngResource", "ngRoute", "finalcountdown.controllers", "finalcountdown.factories"]);
 
-app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+app.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider){
     $locationProvider.html5Mode(true);
 
     $routeProvider.when('/', {

@@ -1,0 +1,20 @@
+<div ng-repeat="book in books" class="row book">
+    <div class="col-sm-2">
+        <img class="cover" src="{{book.image}}" alt="">
+    </div>
+    <div class="col-sm-6">
+        <h3>{{book.title}}</h3>
+        <h4>{{book.author}}</h4>
+        <a ng-href="/{{book.id}}">Single</a>
+    </div>
+</div>
+
+<style>
+    .cover {
+        width: 5em;
+    }
+
+    .book {
+        margin-bottom: 3em;
+    }
+</style>
